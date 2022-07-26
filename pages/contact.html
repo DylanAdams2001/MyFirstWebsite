@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+
+  <body>
+    <div class="announcement">
+      <p>
+        FREE DELIVERY ON ALL ORDERS OVER
+        $100!&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="/pages/products.html"
+          >Shop Now ></a
+        >
+      </p>
+    </div>
+    <header class="header">
+      <img
+        class="logo"
+        src="/images/Logo Website.png"
+        alt="logo"
+        width="300px"
+        height="auto"
+      />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/pages/products.html">PRODUCTS</a></li>
+          <li><a href="/pages/about.html">ABOUT</a></li>
+        </ul>
+      </nav>
+      <a class="cta" href="/pages/contact.html"><button>CONTACT</button></a>
+    </header>
+
+    <form action="contactform.php" class="contact-form" method="post">
+      <p>Contact Us</p>
+      <input type="text" name="name" placeholder="Full Name" />
+      <input type="text" name="email" placeholder="Your Email" />
+      <input type="text" name="subject" placeholder="Subject" />
+      <textarea name="message" placeholder="Message"></textarea>
+      <button type="submit" name="submit">Send</button>
+    </form>
+  </body>
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+</html>
