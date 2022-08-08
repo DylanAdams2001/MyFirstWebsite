@@ -1,0 +1,472 @@
+@font-face {
+    font-family: nike;
+    src: url(/MyFirstWebsite-main/fonts/Futura\ Condensed\ Extra\ Bold.ttf);
+
+
+}
+
+:root {
+    --main-color: rgb(27, 159, 241);
+    --border: .1rem solid
+}
+
+html {
+    
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    width: .8rem;
+} 
+
+html::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 5rem;
+
+} 
+
+
+
+* {
+    box-sizing: border-box;
+    margin-right: 0;
+    padding: 0;
+    
+    font-family: 'nike';
+
+
+}
+
+body {
+    margin: 0%;
+    background: lightgrey;
+    
+}
+
+
+.announcement {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background: black;
+    color: white;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    
+    font-size: 0.8em;
+  }
+  .announcement a { 
+    color: #ccc;
+    background-color: black; 
+  }
+  
+  .announcement a:hover {
+    color: red;
+  }
+  
+  .announcement p {
+    background-color: black;
+  }
+
+li,
+a,
+button {
+
+    font-weight: 500;
+    font-size: 20 px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(171, 171, 171);
+}
+
+.header {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 7%;
+    margin-bottom: 10px;
+   
+    background-color: rgb(171, 171, 171);
+    
+
+}
+
+
+
+.logo {
+    margin-right: 300px;
+    cursor: pointer;
+    padding: 0;
+    background-color: rgb(171, 171, 171);
+}
+
+nav {
+    background-color: rgb(171, 171, 171);
+}
+
+.nav-links {
+    list-style: none;
+    background-color: rgb(171, 171, 171);
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+a {
+    transition: 0.3s ease;
+
+}
+
+a:hover {
+    color: rgb(27, 159, 241);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(27, 159, 241);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(27, 159, 241);
+
+}
+
+.container-1 {
+
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding: 75px;
+    font-size: 40px;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0%;
+
+
+}
+
+.title2 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
+    
+
+}
+.icons {
+    opacity: 100%;
+}
+
+
+
+
+
+.img1 {
+    margin-top: 0px;
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+
+}
+
+.shop-link {
+
+
+    position: absolute;
+    bottom: 18px;
+    left: 85px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+.container-2 {
+    position: relative;
+    text-align: center;
+}
+
+.container-3 {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.container-3 h3 {
+    text-align: center;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.products .box-container  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 0.5rem;
+
+}
+
+.products .box-container .box {
+    text-align: center;
+    padding: 2rem;
+}
+
+.products img {
+    width: auto;
+    height: 350px;
+}
+
+.products .box-container .box .icons a {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    font-size: 1rem;
+    color: black;
+    margin: .3rem;
+}
+
+.products .box-container .box .icons a:hover{
+    background:var(--main-color);
+}
+
+.products .box-container .box .image {
+    padding: 2.5rem 0;
+}
+
+
+.products .box-container .box .content .stars {
+    padding: .5rem;
+}
+
+.products .box-container .box .content .stars i {
+    
+    color: var(--main-color);
+}
+
+.products .box-container .box .content h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.heading{
+    margin-top: 6.5rem;
+    margin-left: 6rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-decoration: underline;
+    
+   
+}
+
+.heading span{
+    background-color: var(--main-color);
+    padding: 20px;
+}
+
+.about-us-image {
+    float: left;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.contact-form {
+    display: block;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    margin-top: 90px;
+
+}
+
+
+
+button[type=submit]:hover {
+    background-color: red;
+  }
+
+  button[type=submit] {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  input[type=text], select, textarea {
+    width: 100px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea {
+    width: 400px;
+    height: 200px;
+  }
+
+
+  .box a {
+    color: black;
+  }
+
+.pd .left-side {
+    padding-left: 3rem;
+    padding-top: 0;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    float: left;
+}
+
+.right-side {
+    margin-left: 100px;
+}
+    
+
+
+.product-heading {
+    font-size: 50px;
+    margin-top: 100px;
+
+}
+
+.pd p {
+    
+    margin-right: 200px;
+    margin-bottom: 70px;
+}
+
+.pd img {
+    width: 600px;
+    height: 772px;
+}
+
+
+
+
+.contact-form p {
+    font-size: 30px;
+}
+
+.about-us p {
+    margin-bottom: 30px;
+    margin-right: 120px;
+    
+}
+
+
+
+.footer {
+    margin-top: 300px;
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+    line-height: 1.5;
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer  li {
+    background-color: black;
+}
+
+.footer a {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-col {
+    padding-top: 20px;
+    padding-left: 30px 0;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.footer-col h3 {
+    
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+
+}
+
+.footer h3::before {
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    
+}
+
+.social-links {
+    color: white;
+    
+}
+
+.contact-form-div {
+    margin-bottom: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
